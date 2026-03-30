@@ -1,6 +1,6 @@
 baseURL = 'https://wangqinstu.github.io/'
 languageCode = 'zh-cn'
-title = '王钦的技术博客'
+title = 'qin'blog'
 theme = 'LoveIt'
 
 [caches]
