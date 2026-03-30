@@ -1,0 +1,8 @@
+baseURL = 'https://wangqinstu.github.io/'
+languageCode = 'zh-cn'
+title = '王钦的技术博客'
+theme = 'LoveIt'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
