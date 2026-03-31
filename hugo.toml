@@ -1,8 +1,81 @@
-baseURL = 'https://wangqinstu.github.io/'
-languageCode = 'zh-cn'
-title = 'qin-blog'
-theme = 'LoveIt'
+baseURL = "https://wangqinstu.github.io/"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh-cn"
+title = "WangQin | AI & Robotics"
+theme = "LoveIt"
 
 [caches]
   [caches.images]
-    dir = ':cacheDir/images'
+    dir = ":cacheDir/images"
+
+[params]
+  defaultTheme = "auto"
+  gitRepo = "https://github.com/WangQinStu/WangQinStu.github.io"
+  fingerprint = ""
+  dateFormat = "2006-01-02"
+  title = "WangQin"
+  description = "3D Vision / Robotics / Embodied AI"
+  images = ["/images/avatar.jpg"]
+
+[params.header]
+  desktopMode = "fixed"
+  mobileMode = "auto"
+
+[params.footer]
+  enable = true
+  hugo = false
+  copyright = true
+  author = true
+  since = 2025
+
+[params.section]
+  paginate = 10
+  dateFormat = "01-02"
+
+[params.list]
+  paginate = 10
+  dateFormat = "01-02"
+
+[params.home]
+  [params.home.profile]
+    enable = true
+    gravatarEmail = ""
+    avatarURL = "/images/avatar.png"
+    title = "WangQin"
+    subtitle = "3D Vision / Pose Estimation / Robotics / Embodied AI"
+    typeit = false
+    social = true
+    disclaimer = "Documentation of robot vision, point cloud, 6D pose estimation, engineering practice and learning notes"
+
+  [params.home.posts]
+    enable = true
+    paginate = 6
+
+[params.social]
+  GitHub = "WangQinStu"
+  Email = "wq1458192488@gmail.com"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Articles"
+    url = "/posts/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 4
