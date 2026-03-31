@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>所有文章 - 王钦的技术博客</title>
-        <link>http://localhost:1313/posts/</link>
-        <description>所有文章 | 王钦的技术博客</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 30 Mar 2026 16:00:00 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+        <title>All Posts - WangQin | AI &amp; Robotics</title>
+        <link>http://localhost:46503/posts/</link>
+        <description>All Posts | WangQin | AI &amp; Robotics</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 30 Mar 2025 16:00:00 &#43;0800</lastBuildDate><atom:link href="http://localhost:46503/posts/" rel="self" type="application/rss+xml" /><item>
     <title>第一篇博客</title>
-    <link>http://localhost:1313/posts/first-post/</link>
-    <pubDate>Mon, 30 Mar 2026 16:00:00 &#43;0800</pubDate>
+    <link>http://localhost:46503/posts/first-post/</link>
+    <pubDate>Sun, 30 Mar 2025 16:00:00 &#43;0800</pubDate>
     <author>xxxx</author>
-    <guid>http://localhost:1313/posts/first-post/</guid>
+    <guid>http://localhost:46503/posts/first-post/</guid>
     <description><![CDATA[<p>这是我用 Hugo + LoveIt 搭建的第一篇博客。</p>]]></description>
 </item>
 </channel>

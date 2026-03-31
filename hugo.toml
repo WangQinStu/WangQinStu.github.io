@@ -1,6 +1,6 @@
 baseURL = "https://wangqinstu.github.io/"
-languageCode = "zh-cn"
-defaultContentLanguage = "zh-cn"
+languageCode = "en"
+defaultContentLanguage = "en"
 title = "WangQin | AI & Robotics"
 theme = "LoveIt"
 
@@ -15,7 +15,7 @@ theme = "LoveIt"
   dateFormat = "2006-01-02"
   title = "WangQin"
   description = "3D Vision / Robotics / Embodied AI"
-  images = ["/images/avatar.jpg"]
+  images = ["./images/avatar.jpg"]
 
 [params.header]
   desktopMode = "fixed"
@@ -40,7 +40,7 @@ theme = "LoveIt"
   [params.home.profile]
     enable = true
     gravatarEmail = ""
-    avatarURL = "/images/avatar.png"
+    avatarURL = "/images/avatar.jpg"
     title = "WangQin"
     subtitle = "3D Vision / Pose Estimation / Robotics / Embodied AI"
     typeit = false
@@ -79,3 +79,18 @@ theme = "LoveIt"
     name = "About"
     url = "/about/"
     weight = 4
+
+
+  [params.app]
+  title = "WangQin | AI & Robotics"
+  noFavicon = false
+  svgFavicon = ""
+  themeColor = "#ffffff"
+  iconColor = "#5bbad5"
+  tileColor = "#da532c"
+
+[params.header.title]
+  name = "WangQin"
+  pre = ""
+  post = ""
+  typeit = false

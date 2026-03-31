@@ -1,8 +1,7 @@
 ---
 title: "About"
 ---
-
-# Qin Wang
+## WangQin
 
 I am a robotics and computer vision engineer focused on **3D vision, pose estimation, and intelligent robotic systems**.
 
